@@ -33,9 +33,9 @@ class TestASumar {
 	 * Test varias cifras.
 	 */
 	@Test
-	public void testVariasCifra() {
-		ASumar sumi = new ASumar();
-		String resultado = sumi.mostrar("3433");
-		assertEquals("3433 = 13",resultado );
-	}
+    public void testVariasCifras() {
+        ASumar sumi = new ASumar();
+        String resultado = sumi.mostrar("3433");
+        assertEquals("3 + 4 + 3 + 3 = 13",resultado);
+    }
 }
