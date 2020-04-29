@@ -20,4 +20,13 @@ class TestASumar {
         assertEquals("5 = 5",resultado);
     }
 
+	/**
+	 * Test negativo.
+	 */
+	@Test
+    public void testNegativo() {
+        ASumar sumi = new ASumar();
+        String resultado = sumi.mostrar("-5");
+        assertEquals("",resultado );
+    }
 }

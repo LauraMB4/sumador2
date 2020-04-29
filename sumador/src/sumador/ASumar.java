@@ -10,6 +10,10 @@ public class ASumar {
 	 */
 	public String mostrar(String string) {
 		// TODO Auto-generated method stub
+
+		if (string.charAt(0)=='-')
+			return ("");
+		
 		return (string + " = " + string);
 	}
 	
