@@ -1,7 +1,6 @@
 package sumador;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 
 // TODO: Auto-generated Javadoc
@@ -29,4 +28,14 @@ class TestASumar {
         String resultado = sumi.mostrar("-5");
         assertEquals("",resultado );
     }
+	
+	/**
+	 * Test varias cifras.
+	 */
+	@Test
+	public void testVariasCifra() {
+		ASumar sumi = new ASumar();
+		String resultado = sumi.mostrar("3433");
+		assertEquals("3433 = 13",resultado );
+	}
 }
